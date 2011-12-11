@@ -2,6 +2,9 @@
 from zope.interface import Interface as I
 
 
+class IBitBotPluginFactory(I):
+    pass
+
 class IConfiguration(I):
     pass
 
