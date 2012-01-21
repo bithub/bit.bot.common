@@ -1,6 +1,18 @@
 
 from zope.interface import Interface as I
 
+class ICommand(I):
+    pass
+
+class ISocketRequest(I):
+    pass
+
+class IBotSocket(I):
+    pass
+
+class IWebRoot(I):
+    pass
+
 class ISQLQuery(I):
     pass
 
@@ -70,7 +82,7 @@ class ISessions(I):
 class ISession(I):
     pass
 
-class IHTTPRoot(I):
+class IWebRoot(I):
     pass
 
 class IServices(I):
@@ -79,7 +91,7 @@ class IServices(I):
 class IApplication(I):
     pass
 
-class IPluginFactory(I):
+class IPlugin(I):
     pass
 
 class IPlugins(I):
