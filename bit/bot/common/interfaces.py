@@ -1,6 +1,12 @@
 
 from zope.interface import Interface as I
 
+class IIRCBot(I):
+    pass
+
+class IIRCRequest(I):
+    pass
+
 class INameResolver(I):
     pass
 
