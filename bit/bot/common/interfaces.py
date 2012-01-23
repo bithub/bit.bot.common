@@ -1,6 +1,9 @@
 
 from zope.interface import Interface as I
 
+class INameResolver(I):
+    pass
+
 class ICommand(I):
     pass
 
