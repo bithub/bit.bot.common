@@ -1,6 +1,17 @@
 
 from zope.interface import Interface as I
 
+
+class IAgents(I):
+    pass
+
+class ISubscriptions(I):
+    pass
+
+
+class IRoles(I):
+    pass
+
 class IIRCBot(I):
     pass
 
@@ -34,16 +45,11 @@ class IDataBrain(I):
 class IDataRecord(I):
     pass
 
-class ISubscriptions(I):
-    pass
 
 class IIntelligent(I):
     pass
 
 class IBotAgent(I):
-    pass
-
-class IAgents(I):
     pass
 
 class IJabber(I):
@@ -73,9 +79,6 @@ class IWebJPlates(I):
 class IJPlates(I):
     pass
 
-class ISockets(I):
-    pass
-
 class IJSON(I):
     pass
 
@@ -94,29 +97,10 @@ class ISession(I):
 class IWebRoot(I):
     pass
 
-class IServices(I):
-    pass
-
-class IApplication(I):
-    pass
-
-class IPlugin(I):
-    pass
-
-class IPlugins(I):
-    pass
-
-class IConfiguration(I):
-    pass
 
 class IMUCBot(I):
     pass
 
-class IFileConfiguration(I):
-    pass
-
-class IRoles(I):
-    pass
 
 class IAIMLMacro(I):
     pass
