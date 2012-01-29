@@ -2,6 +2,12 @@
 from zope.interface import Interface as I
 
 
+class IHTTPRoot(I):
+    pass
+
+class IHTTPResource(I):
+    pass
+
 class IAgents(I):
     pass
 
