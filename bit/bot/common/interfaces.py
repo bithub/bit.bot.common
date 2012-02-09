@@ -14,6 +14,11 @@ class IAgents(I):
 class ISubscriptions(I):
     pass
 
+class IWebResource(I):
+    pass
+
+class IResourceRegistry(I):
+    pass
 
 class IRoles(I):
     pass
