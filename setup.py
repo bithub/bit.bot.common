@@ -24,8 +24,6 @@ setup(name='bit.bot.common',
       install_requires=[
           'setuptools',
           'zope.interface',
-          'zope.component',
-          'twisted',
       ],
       entry_points="""
       # -*- Entry points: -*-
