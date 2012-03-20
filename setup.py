@@ -5,10 +5,9 @@ version = '0.0.9'
 
 setup(name='bit.bot.common',
       version=version,
-      description="Bit Bot",
+      description="Common interfaces and definitions for bit.bot",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
-      # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
         "Programming Language :: Python",
         "Topic :: Software Development :: Libraries :: Python Modules",
@@ -24,6 +23,9 @@ setup(name='bit.bot.common',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'zope.interface',
+          'zope.component',
+          'twisted',
       ],
       entry_points="""
       # -*- Entry points: -*-
