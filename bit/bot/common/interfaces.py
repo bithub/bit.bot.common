@@ -1,10 +1,6 @@
 from zope.interface import Interface as I
 
 
-class IShellVar(I):
-    pass
-
-
 class IAgents(I):
     pass
 
@@ -90,14 +86,6 @@ class IWebJS(I):
 
 
 class IWebHTML(I):
-    pass
-
-
-class IWebJPlates(I):
-    pass
-
-
-class IJPlates(I):
     pass
 
 
