@@ -5,14 +5,6 @@ class IShellVar(I):
     pass
 
 
-class IHTTPRoot(I):
-    pass
-
-
-class IHTTPResource(I):
-    pass
-
-
 class IAgents(I):
     pass
 
@@ -22,10 +14,6 @@ class ISubscriptions(I):
 
 
 class IWebResource(I):
-    pass
-
-
-class IResourceRegistry(I):
     pass
 
 
@@ -86,10 +74,6 @@ class IBotAgent(I):
 
 
 class IJabber(I):
-    pass
-
-
-class IHTMLResources(I):
     pass
 
 
