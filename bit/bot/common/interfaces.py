@@ -73,10 +73,6 @@ class IBotAgent(I):
     pass
 
 
-class IJabber(I):
-    pass
-
-
 class IWebImages(I):
     pass
 
