@@ -145,9 +145,5 @@ class IGroups(I):
     """  """
 
 
-class ICurateBotProtocol(I):
-    """ curate command """
-
-
 class IBotRequest(I):
     """ curate command """
