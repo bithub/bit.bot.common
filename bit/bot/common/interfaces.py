@@ -1,5 +1,7 @@
 from zope.interface import Interface as I
 
+from bit.core.interfaces import IRequest
+
 
 class IAgents(I):
     pass
@@ -33,11 +35,7 @@ class INameResolver(I):
     pass
 
 
-class ICommand(I):
-    pass
-
-
-class ISocketRequest(I):
+class ISocketRequest(IRequest):
     pass
 
 
