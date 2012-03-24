@@ -9,6 +9,10 @@ class ISubscriptions(I):
     pass
 
 
+class ISubscribe(I):
+    pass
+
+
 class IWebResource(I):
     pass
 
